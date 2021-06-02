@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<meta charset="utf-8">
+	
+	<title>Adam's Website</title>
+	<style>
+	* {
+	 box-sizing: border-box;
+	}
+	
+	header, main {
+		padding: 3rem;
+	}
+	
+	header {
+	position: relative;
+	background-image: url('assets/img/header_background.jpg');
+	background-size: cover;
+	padding-bottom: 8rem;
+	min-height: 200px;
+	}
+	
+	.header-gradient {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+	}
+
+	body {
+	 margin: 0;
+	 font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	}
+	
+	
+
+	#header-primary h1 {
+		color: #fff;
+		position: relative;
+		z-index: 500;
+	   font-weight: 200;
+	   
+	   }
+	   
+	#header-primary h2 {
+		color: #fff;
+		position: relative;
+		z-index: 500;
+	   font-weight: 300;
+	}
+	
+	
+	
+	main {
+		display: flex;
+	}
+	
+	article {
+		flex-grow: 5;
+	}
+	
+	aside {
+		flex-grow: 2;
+	}
+	
+	.aside-primary__item {
+		margin-bottom: 3rem;
+	}
+	
+	.mermaid-image {
+		width: 100%;
+		}
+	
+	aside iframe {
+		max-width: 100%;
+	}
+		
+		
+/* Phone*/
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+      }
+
+      /* Large Phone */
+      @media only screen and (max-width: 767px) {
+        body {
+          background-color: green;
+        }
+	      .cat-image {display: none;}
+      }
+	  /* Tablet */
+      @media only screen and (min-width: 767px) and (max-width: 1024px) {
+        body {
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d372cd+0,44318e+33,cc4756+53,05abe0+100 */
+background: rgb(211,114,205); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(211,114,205,1) 0%, rgba(68,49,142,1) 33%, rgba(204,71,86,1) 53%, rgba(5,171,224,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(211,114,205,1) 0%,rgba(68,49,142,1) 33%,rgba(204,71,86,1) 53%,rgba(5,171,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(211,114,205,1) 0%,rgba(68,49,142,1) 33%,rgba(204,71,86,1) 53%,rgba(5,171,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d372cd', endColorstr='#05abe0',GradientType=0 ); /* IE6-9 */
+		.cat-image {width: 100%;}
+        }
+      }
+	  /* Large screen */
+      @media only screen and (min-width: 2048px) {
+        body {
+          
+
+        }
+      }
+
+	</style>
+	<script>
+	</script>
+</head>
+<body>
+	<header id="header-primary">
+		<div>
+		<h1>Adam K Olson's Website Without A Name</h1>
+		<h2>Just some guy in living in NYC teachning his near life-long interest in art, language, and code.</h2>
+		</div>
+		
+		<div class="header-gradient"></div>
+	</header>
+	<main id="main-primary">
+		
+		<article id="article-primary">
+		
+		<img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1263&q=80" class="cat-image">
+		<img src="https://i.imgur.com/Emxfmzo.jpg" class="mermaid-image">
+		
+		<h4>Education:</h4>
+	<ul>
+		<li>Baldwin Elementary</li>
+		<li>Rochester Adams High School</li>
+		<li><strong>Bachelor of Fine Arts</strong>, Graphic Arts, Michigan State University</li>
+	</ul>
+	<h4>Languages:</h4>
+	<ul>
+		<li>English</li>
+		<li>日本語</li>
+		<li>русский язык</li>
+	</ul>
+	
+	<h4>Computer Languages/Skills</h4>
+	<ul>
+		<li>HTML5</li>
+		<li>CSS3</li>
+		<li>JavaScript</li>
+		<li>jQuery</li>
+		<li>PHP</li>
+		<li>Linux</li>
+		<li>WordPress</li>
+	</ul>
+	<h4>Clients</h4>
+	<ul>
+		<li>General Electric</li>
+		<li>AmericanExpress</li>
+		<li>Viacom(MTV/Nickleodeon)</li>
+		<li>CenturyLink</li>
+		<li>ABInBev(Budweiser)</li>
+		<li>Diageo(Smirnoff)</li>
+		<li>Bloomberg</li>
+		<li>AMA</li>
+		<li>PBS</li>
+		<li>NPR</li>
+		<li>NBC</li>
+		<li>OneWorldTrade</li>
+	</ul>
+
+		
+	
+		</article>
+		<aside id="aside-primary"><h4>Travel:</h4>
+	<ul>
+		<li>Japan</li>
+		<li>Russia</li>
+		<li>Poland</li>
+		<li>Germany</li>
+		<li>Switzerland</li>
+		<li>Israel</li>
+		<li>Spain</li>
+		<li>Portugal</li>
+	</ul>
+	<div class="aside-primary__item">
+	<h4>Favorite TV Show</h4>
+	<iframe src="https://www.youtube.com/embed/DcUkKltAidM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="aside-primary__item">
+	<h4>Favorite Movie</h4>
+	<iframe src="https://www.youtube.com/embed/oR_e9y-bka0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	
+	</aside>
+	</main>
+	</body>
+</html>
